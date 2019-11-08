@@ -31,3 +31,19 @@ $ GIT_USER=<Your GitHub username> USE_SSH=1 yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+### Docker
+
+To build a Docker image for local testing, run:
+
+```
+docker build --tag bothub-blog .
+```
+
+and then to run it:
+
+```
+docker run -p 3000:3000 -it bothub-blog
+```
+
+You'll be able to access it from your machine at `localhost:3000`.
