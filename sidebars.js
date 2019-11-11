@@ -7,7 +7,7 @@
 
 module.exports = {
   docs: {
-    Releases: ['doc1', 'version-2.0.0'],
+    Releases: ['nov-2019', 'doc1'],
     Miscellaneus: ['mdx'],
   },
 };
