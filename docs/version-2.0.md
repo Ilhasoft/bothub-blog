@@ -20,178 +20,36 @@ Besides that, you can now write your formatting in Markdown:
 
 ![](markdown_summary.gif)
 
-Also, the repositories are now ranked by the most popular ones. This is done temporarily by using the number of executed evaluations, but this metric may change in the future.
+The repositories are now ranked by the most popular ones. To accomplish that we are temporarily using the number of executed evaluations, but this metric may change in the future.
 
+The _"analyze text"_ window finally works by just typing Enter and has a new icon to copy the JSON content into the clipboard:
 
+![](analyze_refactored.gif)
 
-UI
-* Enter for analyzer
-* nova UI para treinar
-  - todos aparecem juntos
+The training screen was refactored to show all the training samples without the need to select a specific intent. If you want to see examples of a single intent, you can select it in the filter:
 
-* Novo Rasa & Spacy
-* Cache de idiomas
+![](new_training.gif)
 
+### Back-end Changes
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+During this month, we've been working on migrating all the old routes from `v1` to `v2`. The new routes can be consulted and tested at https://api.bothub.it/.
 
-## Markdown Syntax
+As of this version, Bothub allows each repository to use a self-hosted NLP instance if you want. This setting isn't available in the front-end yet, but it will be soon.
 
-To serve as an example page when styling markdown based Docusaurus sites.
+### NLP Changes
 
-## Headers
+We've updated the version of Rasa to `1.4.3` and of SpaCy to `2.1.9`. This changes bring all of their [latest improvements](https://explosion.ai/blog/spacy-v2-1) to Bothub as well. Besides that, the NLP API now makes use of [FastAPI](https://fastapi.tiangolo.com/) instead of [Tornado](https://www.tornadoweb.org/en/stable/), making the responses faster.
 
-# H1 - Create the best documentation
+We now successfully cache the language embeddings in a way that they can be shared among many Bothub-NLP instances, which means we can now run tens of instances and use just a small amount of memory. Also the Rasa code was better isolated, making future Rasa updates easier than ever.
 
-## H2 - Create the best documentation
+There is a new switch available in the Settings screen, the _"Use analyze char"_ option. This option makes some predictions better for languages that have complicated morphological variations of certain words, such as the [Romance languages](https://en.wikipedia.org/wiki/Romance_languages) and, with enough examples, it can make the models more robust against mistypes.
 
-### H3 - Create the best documentation
+![](use_analyze_char.png)
 
-#### H4 - Create the best documentation
+The NLP routes can be consulted at https://nlp.bothub.it.
 
-##### H5 - Create the best documentation
+### Roadmap
 
-###### H6 - Create the best documentation
+This was the first official Bothub update, which is why we decided to cover the main changes we've done so far. Many of the features we introduced are far from polished. We still have plans to roll out a better permissions system that will allow repository owners to define customized permission groups.
 
----
-
-## Emphasis
-
-Emphasis, aka italics, with _asterisks_ or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
----
-
-## Lists
-
-1. First ordered list item
-1. Another item ⋅⋅\* Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number ⋅⋅1. Ordered sub-list
-1. And another item.
-
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅ ⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅ ⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-- Unordered list can use asterisks
-
-* Or minuses
-
-- Or pluses
-
----
-
-## Links
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com or <http://www.example.com> and sometimes example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
----
-
-## Images
-
-Here's our logo (hover to see the title text):
-
-Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
-
-Reference-style: ![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
-
----
-
-## Code
-
-```javascript
-var s = 'JavaScript syntax highlighting';
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
-
-```js {2}
-function highlightMe() {
-  console.log('This line can be highlighted!');
-}
-```
-
----
-
-## Tables
-
-Colons can be used to align columns.
-
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
-
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
-
----
-
-## Blockquotes
-
-> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
----
-
-## Inline HTML
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
----
-
-## Line Breaks
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
-
-This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
+Aside from that, we have plans to experiment with better visualizations and add features such as issues tracker and dataset forking. Stay tuned!
