@@ -10,7 +10,7 @@ module.exports = {
   tagline: 'The tagline of my site',
   url: 'https://ilhasoft.github.io/bothub-blog/',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/botinho.png',
   organizationName: 'ilhasoft', // Usually your GitHub org/user name.
   projectName: 'bothub-bloog', // Usually your repo name.
   themeConfig: {

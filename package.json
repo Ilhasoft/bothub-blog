@@ -2,6 +2,7 @@
   "name": "bothub-doc",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://ilhasoft.github.io/bothub-blog/",
   "scripts": {
     "deploy": "yarn build && ./node_modules/.bin/gh-pages -d build",
     "start": "docusaurus start",
