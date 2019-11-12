@@ -6,20 +6,20 @@
     "0": [
       1,
       2,
-      7,
-      14,
-      19,
-      24,
-      25,
-      35,
+      8,
+      15,
+      20,
+      26,
+      27,
+      37,
       0
     ],
     "1": [
       0,
-      7,
-      14,
-      19,
-      25,
+      8,
+      15,
+      20,
+      27,
       1
     ],
     "@theme/BlogTagsListPage": [
@@ -29,113 +29,119 @@
     "@docusaurus-plugin-content-blog/bothub-blog-blog-hola-210.json": [
       3
     ],
-    "@docusaurus-plugin-content-docs/bothub-blog-docs-doc-2-fe6.json": [
+    "@docusaurus-plugin-content-docs/bothub-blog-docs-nov-2019-1ad.json": [
       4
     ],
-    "@docusaurus-plugin-content-blog/bothub-blog-blog-welcome-49d.json": [
+    "@docusaurus-plugin-content-docs/bothub-blog-docs-doc-2-fe6.json": [
       5
     ],
-    "@theme/DocItem": [
+    "@docusaurus-plugin-content-blog/bothub-blog-blog-welcome-49d.json": [
       6
+    ],
+    "@theme/DocItem": [
+      7
     ],
     "@theme/DocPage": [
       0,
       1,
-      7
+      8
     ],
     "@theme/NotFound": [
       0,
-      35
+      37
     ],
     "@docusaurus-plugin-content-docs/bothub-blog-docs-89c.json": [
-      8
-    ],
-    "@docusaurus-plugin-content-blog/bothub-blog-blog-tags-facebook-931.json": [
       9
     ],
-    "@site/blog/2019-05-30-welcome.md": [
+    "@docusaurus-plugin-content-blog/bothub-blog-blog-tags-facebook-931.json": [
       10
     ],
-    "@site/blog/2019-05-29-hello-world.md?truncated=true": [
+    "@site/blog/2019-05-30-welcome.md": [
       11
     ],
-    "@docusaurus-plugin-content-docs/bothub-blog-docs-mdx-2c4.json": [
+    "@site/blog/2019-05-29-hello-world.md?truncated=true": [
       12
     ],
-    "@site/docs/doc3.md": [
+    "@docusaurus-plugin-content-docs/bothub-blog-docs-mdx-2c4.json": [
       13
+    ],
+    "@site/docs/doc3.md": [
+      14
     ],
     "@theme/BlogTagsPostsPage": [
       0,
       1,
-      14
-    ],
-    "@docusaurus-plugin-content-blog/bothub-blog-blog-hello-world-f2c.json": [
       15
     ],
-    "@docusaurus-plugin-content-blog/bothub-blog-blog-4d4.json": [
+    "@docusaurus-plugin-content-blog/bothub-blog-blog-hello-world-f2c.json": [
       16
     ],
-    "@site/blog/2019-05-28-hola.md?truncated=true": [
+    "@docusaurus-plugin-content-blog/bothub-blog-blog-4d4.json": [
       17
     ],
-    "@docusaurus-plugin-content-docs/bothub-blog-docs-doc-1-994.json": [
+    "@site/blog/2019-05-28-hola.md?truncated=true": [
       18
+    ],
+    "@docusaurus-plugin-content-docs/bothub-blog-docs-doc-1-994.json": [
+      19
     ],
     "@theme/BlogListPage": [
       0,
       1,
-      19
-    ],
-    "@site/blog/2019-05-30-welcome.md?truncated=true": [
       20
     ],
-    "@site/docs/doc1.md": [
+    "@site/blog/2019-05-30-welcome.md?truncated=true": [
       21
     ],
-    "@site/blog/2019-05-28-hola.md": [
+    "@site/docs/doc1.md": [
       22
     ],
-    "@docusaurus-plugin-content-blog/bothub-blog-blog-tags-hello-95c.json": [
+    "@site/blog/2019-05-28-hola.md": [
       23
+    ],
+    "@docusaurus-plugin-content-blog/bothub-blog-blog-tags-hello-95c.json": [
+      24
+    ],
+    "@site/docs/nov-2019.md": [
+      25
     ],
     "@site/src/pages/index.js": [
       0,
-      24
+      26
     ],
     "@theme/BlogPostPage": [
       0,
       1,
-      25
-    ],
-    "@site/docs/mdx.md": [
-      26
-    ],
-    "@docusaurus-plugin-content-docs/bothub-blog-docs-doc-3-168.json": [
       27
     ],
-    "@site/blog/2019-05-29-hello-world.md": [
+    "@site/docs/mdx.md": [
       28
     ],
-    "@docusaurus-plugin-content-blog/bothub-blog-blog-tags-hola-6da.json": [
+    "@docusaurus-plugin-content-docs/bothub-blog-docs-doc-3-168.json": [
       29
     ],
-    "@site/docs/doc2.md": [
+    "@site/blog/2019-05-29-hello-world.md": [
       30
     ],
-    "@docusaurus-plugin-content-blog/bothub-blog-blog-tags-tags-053.json": [
+    "@docusaurus-plugin-content-blog/bothub-blog-blog-tags-hola-6da.json": [
       31
     ],
-    "@docusaurus-plugin-content-blog/bothub-blog-blog-tags-docusaurus-e16.json": [
+    "@site/docs/doc2.md": [
       32
     ],
-    "main": [
-      34,
+    "@docusaurus-plugin-content-blog/bothub-blog-blog-tags-tags-053.json": [
       33
     ],
-    "runtime~main": [
-      33,
+    "@docusaurus-plugin-content-blog/bothub-blog-blog-tags-docusaurus-e16.json": [
       34
+    ],
+    "main": [
+      36,
+      35
+    ],
+    "runtime~main": [
+      35,
+      36
     ]
   },
   "assets": {
@@ -143,15 +149,15 @@
       "css": [
         {
           "file": "0.beb52637.css",
-          "hash": "2a419ec5913128deaf9c",
+          "hash": "bb1016bf51dd264ccae0",
           "publicPath": "/bothub-blog/0.beb52637.css"
         }
       ],
       "js": [
         {
-          "file": "0.d7c4d852.js",
-          "hash": "2a419ec5913128deaf9c",
-          "publicPath": "/bothub-blog/0.d7c4d852.js"
+          "file": "0.079e72e4.js",
+          "hash": "bb1016bf51dd264ccae0",
+          "publicPath": "/bothub-blog/0.079e72e4.js"
         }
       ]
     },
@@ -159,24 +165,24 @@
       "css": [
         {
           "file": "1.23b9b4f0.css",
-          "hash": "0595e48b1cabe9835406",
+          "hash": "db1fef948ff0c6e8fd47",
           "publicPath": "/bothub-blog/1.23b9b4f0.css"
         }
       ],
       "js": [
         {
-          "file": "1.54c62f3e.js",
-          "hash": "0595e48b1cabe9835406",
-          "publicPath": "/bothub-blog/1.54c62f3e.js"
+          "file": "1.f19dee4c.js",
+          "hash": "db1fef948ff0c6e8fd47",
+          "publicPath": "/bothub-blog/1.f19dee4c.js"
         }
       ]
     },
     "2": {
       "js": [
         {
-          "file": "01a85c17.fa9bc122.js",
-          "hash": "998688c3f92803da9fb6",
-          "publicPath": "/bothub-blog/01a85c17.fa9bc122.js"
+          "file": "01a85c17.eacd5b8d.js",
+          "hash": "5dba5fccde750dd426d9",
+          "publicPath": "/bothub-blog/01a85c17.eacd5b8d.js"
         }
       ]
     },
@@ -192,337 +198,355 @@
     "4": {
       "js": [
         {
-          "file": "0b10e8d2.60e412aa.js",
-          "hash": "584de0332df9c8800132",
-          "publicPath": "/bothub-blog/0b10e8d2.60e412aa.js"
+          "file": "080db23e.857e75f9.js",
+          "hash": "613e7cc747751b0bb126",
+          "publicPath": "/bothub-blog/080db23e.857e75f9.js"
         }
       ]
     },
     "5": {
       "js": [
         {
-          "file": "15c0fac6.d7f9c378.js",
-          "hash": "8ebb3e5c8a0a1ee1092a",
-          "publicPath": "/bothub-blog/15c0fac6.d7f9c378.js"
+          "file": "0b10e8d2.d941c3da.js",
+          "hash": "3bc3d744e97a9635b6ad",
+          "publicPath": "/bothub-blog/0b10e8d2.d941c3da.js"
         }
       ]
     },
     "6": {
-      "css": [
-        {
-          "file": "17896441.de264834.css",
-          "hash": "e72b44ccb99a12a90be6",
-          "publicPath": "/bothub-blog/17896441.de264834.css"
-        }
-      ],
       "js": [
         {
-          "file": "17896441.9e27c154.js",
-          "hash": "e72b44ccb99a12a90be6",
-          "publicPath": "/bothub-blog/17896441.9e27c154.js"
+          "file": "15c0fac6.ee376cc2.js",
+          "hash": "4681efc0b4f073d0a3c6",
+          "publicPath": "/bothub-blog/15c0fac6.ee376cc2.js"
         }
       ]
     },
     "7": {
       "css": [
         {
+          "file": "17896441.de264834.css",
+          "hash": "b8759fcf43862f743215",
+          "publicPath": "/bothub-blog/17896441.de264834.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "17896441.14368a6c.js",
+          "hash": "b8759fcf43862f743215",
+          "publicPath": "/bothub-blog/17896441.14368a6c.js"
+        }
+      ]
+    },
+    "8": {
+      "css": [
+        {
           "file": "1be78505.a7dc664a.css",
-          "hash": "95cf834a099c64fa7baf",
+          "hash": "b6c1e14c50933aedd5ad",
           "publicPath": "/bothub-blog/1be78505.a7dc664a.css"
         }
       ],
       "js": [
         {
-          "file": "1be78505.cb91ad85.js",
-          "hash": "95cf834a099c64fa7baf",
-          "publicPath": "/bothub-blog/1be78505.cb91ad85.js"
-        }
-      ]
-    },
-    "8": {
-      "js": [
-        {
-          "file": "1ce08fdc.9bf8efa2.js",
-          "hash": "01b1407f79647782690e",
-          "publicPath": "/bothub-blog/1ce08fdc.9bf8efa2.js"
+          "file": "1be78505.1577dabb.js",
+          "hash": "b6c1e14c50933aedd5ad",
+          "publicPath": "/bothub-blog/1be78505.1577dabb.js"
         }
       ]
     },
     "9": {
       "js": [
         {
-          "file": "1f730c5f.fc1a7fb9.js",
-          "hash": "983f80e3fa071e084d59",
-          "publicPath": "/bothub-blog/1f730c5f.fc1a7fb9.js"
+          "file": "1ce08fdc.bb312427.js",
+          "hash": "b3b4fab6acda6f88ff37",
+          "publicPath": "/bothub-blog/1ce08fdc.bb312427.js"
         }
       ]
     },
     "10": {
       "js": [
         {
-          "file": "2868cdab.41ec00e1.js",
-          "hash": "8c32d42faad4cd754909",
-          "publicPath": "/bothub-blog/2868cdab.41ec00e1.js"
+          "file": "1f730c5f.5eea19f0.js",
+          "hash": "44ebdace362b3dccc3c6",
+          "publicPath": "/bothub-blog/1f730c5f.5eea19f0.js"
         }
       ]
     },
     "11": {
       "js": [
         {
-          "file": "3570154c.cda062c7.js",
-          "hash": "6e1344657f6f72efe927",
-          "publicPath": "/bothub-blog/3570154c.cda062c7.js"
+          "file": "2868cdab.0bcd191a.js",
+          "hash": "74d2396d59e98da54e27",
+          "publicPath": "/bothub-blog/2868cdab.0bcd191a.js"
         }
       ]
     },
     "12": {
       "js": [
         {
-          "file": "476a610f.0a892494.js",
-          "hash": "eb1c486d09bdc4e4f5b9",
-          "publicPath": "/bothub-blog/476a610f.0a892494.js"
+          "file": "3570154c.711c3583.js",
+          "hash": "0bf9832b3b930bff7070",
+          "publicPath": "/bothub-blog/3570154c.711c3583.js"
         }
       ]
     },
     "13": {
       "js": [
         {
-          "file": "616665f6.e385f9da.js",
-          "hash": "aa71153449fdac865c74",
-          "publicPath": "/bothub-blog/616665f6.e385f9da.js"
+          "file": "476a610f.dd34ddd9.js",
+          "hash": "2d7f9394c943a6108d21",
+          "publicPath": "/bothub-blog/476a610f.dd34ddd9.js"
         }
       ]
     },
     "14": {
+      "js": [
+        {
+          "file": "616665f6.e7edad0a.js",
+          "hash": "5c0e728adc72e482090b",
+          "publicPath": "/bothub-blog/616665f6.e7edad0a.js"
+        }
+      ]
+    },
+    "15": {
       "css": [
         {
           "file": "6875c492.42d18faa.css",
-          "hash": "90fd4837c742a9855212",
+          "hash": "b96e149ac1b9d39a79f4",
           "publicPath": "/bothub-blog/6875c492.42d18faa.css"
         }
       ],
       "js": [
         {
-          "file": "6875c492.6c0683b7.js",
-          "hash": "90fd4837c742a9855212",
-          "publicPath": "/bothub-blog/6875c492.6c0683b7.js"
-        }
-      ]
-    },
-    "15": {
-      "js": [
-        {
-          "file": "6e24956c.d8817171.js",
-          "hash": "1cbe0c0413d09ce0e08c",
-          "publicPath": "/bothub-blog/6e24956c.d8817171.js"
+          "file": "6875c492.eb9c9c00.js",
+          "hash": "b96e149ac1b9d39a79f4",
+          "publicPath": "/bothub-blog/6875c492.eb9c9c00.js"
         }
       ]
     },
     "16": {
       "js": [
         {
-          "file": "76434c26.234b8428.js",
-          "hash": "3d6e04eb800f31017130",
-          "publicPath": "/bothub-blog/76434c26.234b8428.js"
+          "file": "6e24956c.0e31da5c.js",
+          "hash": "f7dd8bc21e7bac1ab87e",
+          "publicPath": "/bothub-blog/6e24956c.0e31da5c.js"
         }
       ]
     },
     "17": {
       "js": [
         {
-          "file": "8e9f0a8a.ca7f44bc.js",
-          "hash": "1a2b8825524793ad9f16",
-          "publicPath": "/bothub-blog/8e9f0a8a.ca7f44bc.js"
+          "file": "76434c26.00461653.js",
+          "hash": "efb1cb2f3e503622c9b7",
+          "publicPath": "/bothub-blog/76434c26.00461653.js"
         }
       ]
     },
     "18": {
       "js": [
         {
-          "file": "931038bb.3fef1501.js",
-          "hash": "9a499a465236b324158b",
-          "publicPath": "/bothub-blog/931038bb.3fef1501.js"
+          "file": "8e9f0a8a.78f6a2c8.js",
+          "hash": "600f7ed4acaf081fb86c",
+          "publicPath": "/bothub-blog/8e9f0a8a.78f6a2c8.js"
         }
       ]
     },
     "19": {
+      "js": [
+        {
+          "file": "931038bb.6fe40973.js",
+          "hash": "a11e7ca8d57fd35a249e",
+          "publicPath": "/bothub-blog/931038bb.6fe40973.js"
+        }
+      ]
+    },
+    "20": {
       "css": [
         {
           "file": "a6aa9e1f.42d18faa.css",
-          "hash": "8af436dcea95e17e7725",
+          "hash": "723ebbdc84fee34d06ab",
           "publicPath": "/bothub-blog/a6aa9e1f.42d18faa.css"
         }
       ],
       "js": [
         {
-          "file": "a6aa9e1f.6adb133c.js",
-          "hash": "8af436dcea95e17e7725",
-          "publicPath": "/bothub-blog/a6aa9e1f.6adb133c.js"
-        }
-      ]
-    },
-    "20": {
-      "js": [
-        {
-          "file": "af172acd.5f4d4f48.js",
-          "hash": "62aac96794142968875e",
-          "publicPath": "/bothub-blog/af172acd.5f4d4f48.js"
+          "file": "a6aa9e1f.8822b7fd.js",
+          "hash": "723ebbdc84fee34d06ab",
+          "publicPath": "/bothub-blog/a6aa9e1f.8822b7fd.js"
         }
       ]
     },
     "21": {
       "js": [
         {
-          "file": "b2f90839.3b76479c.js",
-          "hash": "bb9d689f995ee8cfb28e",
-          "publicPath": "/bothub-blog/b2f90839.3b76479c.js"
+          "file": "af172acd.a75176c0.js",
+          "hash": "0a6b07d63062be8bdd04",
+          "publicPath": "/bothub-blog/af172acd.a75176c0.js"
         }
       ]
     },
     "22": {
       "js": [
         {
-          "file": "bdd709f1.637983fa.js",
-          "hash": "331e09549ffb4e9482f5",
-          "publicPath": "/bothub-blog/bdd709f1.637983fa.js"
+          "file": "b2f90839.22c372df.js",
+          "hash": "a8da0ac46529005d7391",
+          "publicPath": "/bothub-blog/b2f90839.22c372df.js"
         }
       ]
     },
     "23": {
       "js": [
         {
-          "file": "c0759f96.c4758420.js",
-          "hash": "9f28e2e5077f25b547c0",
-          "publicPath": "/bothub-blog/c0759f96.c4758420.js"
+          "file": "bdd709f1.af1638e5.js",
+          "hash": "d1d4944f6de25598a69a",
+          "publicPath": "/bothub-blog/bdd709f1.af1638e5.js"
         }
       ]
     },
     "24": {
+      "js": [
+        {
+          "file": "c0759f96.f8dec5ef.js",
+          "hash": "b6b54ecd07b613588b03",
+          "publicPath": "/bothub-blog/c0759f96.f8dec5ef.js"
+        }
+      ]
+    },
+    "25": {
+      "js": [
+        {
+          "file": "c4f06ba5.b6df98be.js",
+          "hash": "2a14b50ecf95371cf00b",
+          "publicPath": "/bothub-blog/c4f06ba5.b6df98be.js"
+        }
+      ]
+    },
+    "26": {
       "css": [
         {
           "file": "c4f5d8e4.9f99729b.css",
-          "hash": "e1c06dbdb47056e74988",
+          "hash": "65c7875e3314839754dd",
           "publicPath": "/bothub-blog/c4f5d8e4.9f99729b.css"
         }
       ],
       "js": [
         {
-          "file": "c4f5d8e4.0513f06e.js",
-          "hash": "e1c06dbdb47056e74988",
-          "publicPath": "/bothub-blog/c4f5d8e4.0513f06e.js"
+          "file": "c4f5d8e4.ab246216.js",
+          "hash": "65c7875e3314839754dd",
+          "publicPath": "/bothub-blog/c4f5d8e4.ab246216.js"
         }
       ]
     },
-    "25": {
+    "27": {
       "css": [
         {
           "file": "ccc49370.42d18faa.css",
-          "hash": "192e0f65ff56ec7cab14",
+          "hash": "97a683b85fc1d042a002",
           "publicPath": "/bothub-blog/ccc49370.42d18faa.css"
         }
       ],
       "js": [
         {
-          "file": "ccc49370.5bbbd885.js",
-          "hash": "192e0f65ff56ec7cab14",
-          "publicPath": "/bothub-blog/ccc49370.5bbbd885.js"
-        }
-      ]
-    },
-    "26": {
-      "js": [
-        {
-          "file": "ce3e42ad.83bbdbe6.js",
-          "hash": "ca50060d45c5f3ebb78d",
-          "publicPath": "/bothub-blog/ce3e42ad.83bbdbe6.js"
-        }
-      ]
-    },
-    "27": {
-      "js": [
-        {
-          "file": "d5bbf586.4408bb22.js",
-          "hash": "7112f6951ee2e0bd828d",
-          "publicPath": "/bothub-blog/d5bbf586.4408bb22.js"
+          "file": "ccc49370.70f5a3ec.js",
+          "hash": "97a683b85fc1d042a002",
+          "publicPath": "/bothub-blog/ccc49370.70f5a3ec.js"
         }
       ]
     },
     "28": {
       "js": [
         {
-          "file": "d610846f.21e71571.js",
-          "hash": "f50fbf4d0a86d2e407df",
-          "publicPath": "/bothub-blog/d610846f.21e71571.js"
+          "file": "ce3e42ad.81cd920c.js",
+          "hash": "6adaeae70bcac9c2ff0e",
+          "publicPath": "/bothub-blog/ce3e42ad.81cd920c.js"
         }
       ]
     },
     "29": {
       "js": [
         {
-          "file": "de9a6042.d38dd752.js",
-          "hash": "f3b54266b46b8e5a65e7",
-          "publicPath": "/bothub-blog/de9a6042.d38dd752.js"
+          "file": "d5bbf586.bf095294.js",
+          "hash": "c4c72fad46ed8f71d9bc",
+          "publicPath": "/bothub-blog/d5bbf586.bf095294.js"
         }
       ]
     },
     "30": {
       "js": [
         {
-          "file": "df361e2b.6d82834f.js",
-          "hash": "12a5d83e906a216a1054",
-          "publicPath": "/bothub-blog/df361e2b.6d82834f.js"
+          "file": "d610846f.7d3e0cfe.js",
+          "hash": "76d6aecb3c59de7bbd68",
+          "publicPath": "/bothub-blog/d610846f.7d3e0cfe.js"
         }
       ]
     },
     "31": {
       "js": [
         {
-          "file": "e1871551.36d61c08.js",
-          "hash": "8f5d9b4a22cee4160fbb",
-          "publicPath": "/bothub-blog/e1871551.36d61c08.js"
+          "file": "de9a6042.7e1c1f8f.js",
+          "hash": "6c7e21c4a9776f7792c2",
+          "publicPath": "/bothub-blog/de9a6042.7e1c1f8f.js"
         }
       ]
     },
     "32": {
       "js": [
         {
-          "file": "ee23298c.f007e28f.js",
-          "hash": "dc6fbc9980edd31e9738",
-          "publicPath": "/bothub-blog/ee23298c.f007e28f.js"
+          "file": "df361e2b.b82dc30d.js",
+          "hash": "31ba8a4e9ccc60051b6f",
+          "publicPath": "/bothub-blog/df361e2b.b82dc30d.js"
         }
       ]
     },
     "33": {
-      "css": [
-        {
-          "file": "main.890859af.css",
-          "hash": "90e1ab8b1408a9ebc33d",
-          "publicPath": "/bothub-blog/main.890859af.css"
-        }
-      ],
       "js": [
         {
-          "file": "main.673e7e4b.js",
-          "hash": "90e1ab8b1408a9ebc33d",
-          "publicPath": "/bothub-blog/main.673e7e4b.js"
+          "file": "e1871551.07ac6e5f.js",
+          "hash": "764b59a6386086f5d1f4",
+          "publicPath": "/bothub-blog/e1871551.07ac6e5f.js"
         }
       ]
     },
     "34": {
       "js": [
         {
-          "file": "runtime~main.46b8e9ce.js",
-          "hash": "0a33e2bd5a8a7602c0c8",
-          "publicPath": "/bothub-blog/runtime~main.46b8e9ce.js"
+          "file": "ee23298c.aad5c6ec.js",
+          "hash": "d27f6cd4ec8605646c3b",
+          "publicPath": "/bothub-blog/ee23298c.aad5c6ec.js"
         }
       ]
     },
     "35": {
+      "css": [
+        {
+          "file": "main.890859af.css",
+          "hash": "f71632a14b339e68c714",
+          "publicPath": "/bothub-blog/main.890859af.css"
+        }
+      ],
       "js": [
         {
-          "file": "35.bd17fcde.js",
-          "hash": "ac5c2bb8e31b50078808",
-          "publicPath": "/bothub-blog/35.bd17fcde.js"
+          "file": "main.45ac7782.js",
+          "hash": "f71632a14b339e68c714",
+          "publicPath": "/bothub-blog/main.45ac7782.js"
+        }
+      ]
+    },
+    "36": {
+      "js": [
+        {
+          "file": "runtime~main.a4acf885.js",
+          "hash": "e1c4007cd1ad54732197",
+          "publicPath": "/bothub-blog/runtime~main.a4acf885.js"
+        }
+      ]
+    },
+    "37": {
+      "js": [
+        {
+          "file": "37.649a4400.js",
+          "hash": "55228a608516320d49dc",
+          "publicPath": "/bothub-blog/37.649a4400.js"
         }
       ]
     }
