@@ -8,11 +8,11 @@
 module.exports = {
   title: 'Bothub',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://ilhasoft.github.io/bothub-blog/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ilhasoft', // Usually your GitHub org/user name.
+  projectName: 'bothub-bloog', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Bothub',
