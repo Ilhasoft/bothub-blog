@@ -18,3 +18,4 @@ FROM nginx
 
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY --from=builder /home/app/build /usr/share/nginx/html/bothub-blog
+COPY docs /usr/share/nginx/html/bothub-blog/docs
