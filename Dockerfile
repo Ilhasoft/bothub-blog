@@ -1,11 +1,20 @@
-FROM node:lts-alpine
+FROM node:8-alpine as builder
 
-EXPOSE 3000
+ENV WORKDIR /home/app
+WORKDIR $WORKDIR
 
-WORKDIR /app
+RUN apk update && apk add git yarn
+
+COPY package.json .
+COPY yarn.lock .
+
+RUN yarn install --network-timeout 1000000
 
 COPY . .
 
-RUN yarn install
+RUN yarn build
 
-ENTRYPOINT yarn start --host 0.0.0.0 --port 3000
+FROM nginx
+
+COPY nginx.conf /etc/nginx/nginx.conf
+COPY --from=builder /home/app/build /usr/share/nginx/html/bothub-blog
