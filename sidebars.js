@@ -8,6 +8,6 @@
 module.exports = {
   docs: {
     Releases: ['nov-2019', 'doc1'],
-    Miscellaneus: ['mdx'],
+    // Miscellaneus: ['mdx'],
   },
 };
